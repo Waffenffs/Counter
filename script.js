@@ -5,6 +5,13 @@ const value = document.querySelector(".value");
 let currentValue = 0;
 
 const changeValue = () => {
+    if(currentValue > 0){
+        value.style.color = 'green';
+    } else if (currentValue < 0){
+        value.style.color = 'red';
+    } else {
+        value.style.color = 'black';
+    }
     return value.textContent = currentValue;
 }
 

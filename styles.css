@@ -27,11 +27,17 @@ h3 {
     background: none;
     border-radius: 5px;
     font-size: 50px;
+    transition-duration: 0.8s;
+}
+
+
+.btn:hover {
+    background: black;
+    color: white;
 }
 
 .btn:active {
-    background: black;
-    color: white;
+    transform: scale(0.9)
 }
 
 img {
